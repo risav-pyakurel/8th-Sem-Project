@@ -1,0 +1,32 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directory (venv)
+venv/
+.env/
+
+# Ignore configuration files from Jupyter
+profile_default/
+ipython_config.py
+jupyter_notebook_config.py
+
+# Ignore .idea or other IDE-specific folders (e.g., PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Ignore system-specific files
+.DS_Store  # MacOS system file
+Thumbs.db  # Windows system file
+
+# Ignore logs
+*.log
+
+# Ignore Python package distribution artifacts
+*.egg
+*.egg-info/
+dist/
+build/
