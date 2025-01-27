@@ -128,7 +128,7 @@ cm_display.plot()
 plt.show()
 
 # Testing on health data
-X_test = data_healthall['text']
+X_test = data_healthall['text'] 
 Y_test = data_healthall['class']
 X_test = vectorization.transform(X_test)
 

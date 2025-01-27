@@ -31,3 +31,6 @@ Thumbs.db  # Windows system file
 dist/
 build/
 .News.csv
+
+.fake
+.vscode/
